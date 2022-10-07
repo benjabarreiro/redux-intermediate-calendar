@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: repeat(7, 180px);
+  gap: 15px;
+}
+
+.card {
+  cursor: pointer;
+}
